@@ -311,3 +311,9 @@ progress[value]::-webkit-progress-value {
         transform: translateY(0);
     }
 }
+
+@media (max-width: 1500px) {
+    .skills {
+        flex-direction: column;
+    }
+}
